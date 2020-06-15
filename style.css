@@ -1,29 +1,54 @@
 body {
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #fff8cd;
-    font-family: 'Times New Roman', Times, serif;
-}
-.container
-{
-    width: 1200px;
-    height: auto;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-gap: 10px;
     padding: 10px;
-    box-sizing: border-box;
-}
-.container .box{
-    position: relative;
-    background: #fff;
-    padding: 20px 40px 40px;
+    align-items: center;
+    background: #deddfa;}
+   
+h3 {
+    padding: 10px;
+    color: #1b262c;
     text-align: center;
-    overflow: hidden;
-    border-radius: 20px;
+
+}
+
+#hist {
+    padding: 10px;
+    color: #1b262c;
+    background: #dab8f3;
+    text-align: justify;
+    border: 10px;
+    border-color: aliceblue;
+}
+
+#geo {
+    padding: 10px;
+    color: #1b262c;
+    background: #ea7ad7;
+    text-align: justify;
+    border: 10px;
+    border-color: aliceblue;
+}
+
+#bio {
+    padding: 10px;
+    color: #1b262c;
+    background: #fd2eb3;
+    text-align: justify;
+    border: 10px;
+    border-color: aliceblue;
+}
+
+#hist p {
+    text-align: center;
+    padding: 10px;
+}
+
+#geo p {
+    text-align: center;
+    padding: 10px;
+}
+
+#bio p {
+    text-align: center;
+    padding: 10px;
 }
